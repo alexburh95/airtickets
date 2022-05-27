@@ -1,0 +1,181 @@
+.ticket_header{
+   background-color: #0087C9;
+   padding: 15px 10px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   height: 50px;
+   margin-bottom: 10px;
+   color: #ffffff;
+}
+
+.ticket_header img{
+   width: 10%;
+}
+.ticket_header p{
+   color: #ffffff;
+   padding: 0;
+   margin: 0;
+}
+
+.row{
+   margin-top: 50px;
+}
+
+.ticket_header .header_price{
+   display: flex;
+    justify-content: end;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: -5px;
+}
+
+.price_description{
+   font-size: 12px;
+}
+
+.city_title{
+   font-size: 20px;
+   font-weight: 400;
+   margin: 0;
+}
+
+.city_title span{
+   color: #0087C9;
+  
+}.departure_cityes{
+   display: flex;
+   margin-left: 15px;
+   align-items: center;
+}
+
+.arrow{
+   margin: 0 5px;
+   font-size: 20px;
+   color: #0087C9;
+}
+
+.grey_line{
+   width: 100%;
+   height: 1px;
+   background-color: #E5E5E5;
+   margin: 5px 0;
+}
+
+.arrive_time{
+   font-size: 20px;
+   font-weight: 400;
+   margin: 0;
+   display: flex;
+   align-items: baseline;
+}
+
+.arrive_time span{
+   color: #0087C9;
+   font-size: 15px;
+   margin: 0px 10px;
+}
+
+
+.arrive_times{
+   display: flex;
+   margin-left: 15px;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.transfer{
+margin-top: 10px;
+margin-left: 15px;
+}
+
+.transfer_title{
+   color: #FFAB14;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center ;
+   margin: 0;
+}
+
+.transfer_title::before{
+   content: " ";
+   width: 250px;
+   height: 1px;
+   background-color: #A2A2A2;
+   position: absolute;
+   left: 10%;
+
+}
+.transfer_title::after{
+   content: " ";
+   width: 250px;
+   height: 1px;
+   background-color: #A2A2A2;
+   position: absolute;
+   right: 8%;
+
+}
+
+
+.airline_title{
+   margin: 0;
+   margin-left: 15px;
+   font-size: 20px;
+}
+.blue_line{
+   width: 100%;
+   height: 2px;
+   background-color: #0087C9;
+   margin-top: 5px;
+
+}
+.ticket_main{
+   margin-top: 10px;
+}
+.choose{
+   background-color:#FFB168;
+   width: 100%;
+   height: 50px;
+   color: #ffffff;
+   border: none;
+   outline: none;
+   margin-top: 10px;
+   margin-bottom: 20px;
+}
+
+.load_more{
+   margin: 0 auto;
+   width: 250px;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   height: 30px;
+   align-items: center;
+}
+
+.filter_title{
+   margin: 0;
+   font-weight: 500;
+   margin-bottom: 10px;
+}
+
+.sort{
+   margin-bottom: 50px;
+}
+
+.sort p{
+margin: 0;
+}
+
+.filter p{
+   margin: 0;
+}
+
+.filter{
+   margin-bottom: 20px;
+}
+
+.aier_uid{
+   color: #ffffff;
+}

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Личный сайт Александра Бурыхина" />
+  <meta name="language" content="RU" />
+  <!--css-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- js-->
+  <script src="https://use.fontawesome.com/75eb093bf1.js"></script>
+  <title>Air tickets</title>
+</head>
+
+<body>
+
+  <main>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-4">
+      <p class="filter_title">Сортировать</p>
+
+      <form action="" class="sort">
+        <p><input name="sortr" type="radio" checked value="up"> -по позврастанию цены</p>
+        <p><input name="sort" type="radio" value="down"> -по убыванию цены</p>
+        <p><input name="sort" type="radio" value="time"> -по времени перелета</p>
+      </form>
+
+      <p class="filter_title">Фильтровать</p>
+      <form action="" class="filter">
+        <p><input name="filter" type="radio" value="transfer"> -1 пересадка</p>
+        <p><input name="filter" type="radio" value="none"> -без пересадок</p>
+      </form>
+      
+      <p class="filter_title">Цена</p>
+
+      <form action="" class="price">
+        <p>От
+          <input type="text" size="20">
+         </p>
+         <p>До
+          <input type="text" size="20">
+         </p>
+      </form>
+
+      <p class="filter_title">Авиакомпании</p>
+      <form action="" class="avia">
+        <p><input type="checkbox" name="avia" value="1934">- 1934 от 1000 руб.</p>
+        <p><input type="checkbox" name="avia" value="2010"> - 2010 1000 руб.</p>
+     
+      </form>
+    </div>
+    <div class="col-lg-8">
+<div class="ticket">
+      <div class="ticket_header">
+
+        <img src="img/avialogo.png" alt="Логотип авиакомпании">
+        <div><p class="header_price">21049  &#8381;</p>
+        <p class="price_description">Стоимость для одного пассажира</p></div>
+
+      </div>
+
+    <div class="ticket_main">
+        <div class="departure_cityes">
+          <h2 class="city_title">Москва, ШЕРЕМЕТЬЕВО <span> (SVO)</span></h2> 
+          <span class="arrow">&#8594;</span>
+          <h2 class="city_title">Лондон, ХИТРОУ<span> (LHR)</span></h2> 
+        </div>
+        <div class="grey_line"></div>
+  
+        <div class="arrive_times">
+          <h3 class="arrive_time">20:40 <span>18 августа</span></h3>
+          <h3 class="arrive_time">&#8986; 14 ч 45 мин </h3>
+          <h3 class="arrive_time"> <span>19 августа </span> 20:40</h3>
+        </div>
+        <div class="transfer">
+          <p class="transfer_title"> 1 пересадка</p></div>
+  
+          <div class="airline">
+            <p class="airline_title">Рейс выполняет: Airoflot</p>
+          </div>
+  
+          <div class="blue_line">
+          </div>
+    </div>
+    <div class="ticket_main">
+      <div class="departure_cityes">
+        <h2 class="city_title">Москва, ШЕРЕМЕТЬЕВО <span> (SVO)</span></h2> 
+        <span class="arrow">&#8594;</span>
+        <h2 class="city_title">Лондон, ХИТРОУ<span> (LHR)</span></h2> 
+      </div>
+      <div class="grey_line"></div>
+
+      <div class="arrive_times">
+        <h3 class="arrive_time">20:40 <span>18 августа</span></h3>
+        <h3 class="arrive_time">&#8986; 14 ч 45 мин </h3>
+        <h3 class="arrive_time"> <span>19 августа </span> 20:40</h3>
+      </div>
+      <div class="transfer">
+        <p class="transfer_title"> 1 пересадка</p></div>
+
+        <div class="airline">
+          <p class="airline_title">Рейс выполняет: Airoflot</p>
+        </div>
+
+       
+  </div>
+   <button class="choose">ВЫБРАТЬ</button>
+     
+    </div>
+    <div class="ticket">
+      <div class="ticket_header">
+
+        <img src="img/avialogo.png" alt="Логотип авиакомпании">
+        <div><p class="header_price">21049  &#8381;</p>
+        <p class="price_description">Стоимость для одного пассажира</p></div>
+
+      </div>
+
+    <div class="ticket_main">
+        <div class="departure_cityes">
+          <h2 class="city_title">Москва, ШЕРЕМЕТЬЕВО <span> (SVO)</span></h2> 
+          <span class="arrow">&#8594;</span>
+          <h2 class="city_title">Лондон, ХИТРОУ<span> (LHR)</span></h2> 
+        </div>
+        <div class="grey_line"></div>
+  
+        <div class="arrive_times">
+          <h3 class="arrive_time">20:40 <span>18 августа</span></h3>
+          <h3 class="arrive_time">&#8986; 14 ч 45 мин </h3>
+          <h3 class="arrive_time"> <span>19 августа </span> 20:40</h3>
+        </div>
+        <div class="transfer">
+          <p class="transfer_title"> 1 пересадка</p></div>
+  
+          <div class="airline">
+            <p class="airline_title">Рейс выполняет: Airoflot</p>
+          </div>
+  
+          <div class="blue_line">
+          </div>
+    </div>
+    <div class="ticket_main">
+      <div class="departure_cityes">
+        <h2 class="city_title">Москва, ШЕРЕМЕТЬЕВО <span> (SVO)</span></h2> 
+        <span class="arrow">&#8594;</span>
+        <h2 class="city_title">Лондон, ХИТРОУ<span> (LHR)</span></h2> 
+      </div>
+      <div class="grey_line"></div>
+
+      <div class="arrive_times">
+        <h3 class="arrive_time">20:40 <span>18 августа</span></h3>
+        <h3 class="arrive_time">&#8986; 14 ч 45 мин </h3>
+        <h3 class="arrive_time"> <span>19 августа </span> 20:40</h3>
+      </div>
+      <div class="transfer">
+        <p class="transfer_title"> 1 пересадка</p></div>
+
+        <div class="airline">
+          <p class="airline_title">Рейс выполняет: Airoflot</p>
+        </div>
+
+       
+  </div>
+   <button class="choose">ВЫБРАТЬ</button>
+     
+    </div>
+
+    <button class="load_more">Показать еще</button>
+    
+  </div>
+</div>
+</div>
+
+  </main>
+
+</body>
+
+</html>
+
